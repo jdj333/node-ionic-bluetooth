@@ -7,7 +7,7 @@ The mobile app, built with Ionic, serves as the "controller" or central device.
 
 ## Slave Device: Setting Up The Raspberry Pi with Bleno
 
-## Hardware Setup
+### Hardware Setup
 ![image](https://github.com/jdj333/node-ionic-bluetooth/blob/master/schema.jpg?raw=true})
 
 ### Run the following Commands to Setup the Device:
