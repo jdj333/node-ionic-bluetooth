@@ -1,0 +1,25 @@
+<ion-view title="Ionic BLE Attendance" ng-controller="DeviceController as device_ctrl" ng-init="init()">
+  <header class="bar bar-header bar-stable">
+    <button class="button icon ion-chevron-left" ng-click="backToHome()"></button>
+    <h1 class="title">Ionic Bluetooth</h1>
+  </header>
+  <header class="bar bar-subheader">
+    <h2 class="title">{{device.name}}</h2>
+  </header>
+
+  <ion-content class="has-header has-subheader padding">
+
+    <div class="list">
+
+      <button class="item button button-positive button-full" ng-click="led_on()">
+      LED On
+      </button>
+      <button class="item button button-positive button-full" ng-click="led_off()">
+      LED Off
+      </button>
+
+    </div>
+
+  </ion-content>
+
+</ion-view>
