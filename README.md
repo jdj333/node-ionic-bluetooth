@@ -1,9 +1,9 @@
 # Basic IoT Project: node-ionic-bluetooth
-This is a basic IoT "Internet of Things" project. The Raspberry Pi serves as the "slave" or peripheral device using a node script. The Raspberry Pi must have a USB Bluetooth dongle installed.
+This is a basic IoT "Internet of Things" project. After setting up this project, you will be able to turn a LED ON and OFF using the Ionic app from your IOS or Android device.
+
+The Raspberry Pi serves as the "slave" or peripheral device using a node script. The Raspberry Pi must have a USB Bluetooth dongle installed.
 
 The mobile app, built with Ionic, serves as the "controller" or central device.
-
-After setting up this project, you will be able to turn an LED ON and OFF using the Ionic app from your IOS or Android device.
 
 ## Slave Device: Setting Up The Raspberry Pi with Bleno
 ### Run the following Commands to Setup the Device:
